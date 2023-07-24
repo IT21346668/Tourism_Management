@@ -1,0 +1,158 @@
+
+body {
+    min-height: 100%;
+    background-image: url('../Images/roadtrip.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+body, div, form, input, label {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+}
+      
+#addform {
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    background-color: #10403b;
+    opacity: 85%;
+    border-radius: 25px;
+    color: #e6dfdf;
+    box-shadow: 0 0 20px 0  hsl(0, 11%, 91%);
+}
+
+input {
+    margin-bottom: 20px;
+    border: 1px solid rgb(1, 0, 0);
+    border-radius: 3px;
+    width: calc(100% - 10px);
+    padding: 10.5px 14px;
+    color: #111010;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="date"] {
+    padding: 10.5px 14px;;
+} 
+
+.item input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #004d00;
+    color:hsl(0, 0%, 0%);
+}
+.item {
+    position: relative;
+    margin: 10px 0;
+}
+.item span {
+    color: red;
+}
+ 
+input[type="text"], input[type="tel"], input[type="datetime-local"], input[type="Number"], input[type="url"], textarea {
+    width:90%;
+    border:1px solid #ffffff;
+    margin:2px 0 5px;
+    padding:9px;
+    
+} 
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(24, 150, 60);
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: rgba(138, 241, 200, 0.916);
+}
+
+table {
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #57a86f;
+    position: center;
+}
+
+.table thead td th{
+    color: #ffffff;
+}
+
+.table tbody{
+    color: #111010;
+    font-size: medium;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#admin-search input {
+    margin-top: auto;
+    margin-left: 37%; 
+    /* margin-right: 20px; */
+    border-radius: 50px;
+    height: 15px;
+    width: 400px;
+}
+
+#admin-search i{
+    margin-block-start: auto;
+    margin-left: 78%; 
+    color: #ffffff;
+    font-size: large;
+}
+
+.vehicle-btn:hover {
+    color:#004d00;
+}
+
+
+
+/* input[type="search"] {
+    height: 30px; /* decrease the height of the search bar 
+    width: 150px; /* decrease the width of the search bar 
+    padding: 5px; /* add padding to the search bar to make it look better 
+    font-size: 16px; /* adjust the font size of the search bar text
+  } */
+    
